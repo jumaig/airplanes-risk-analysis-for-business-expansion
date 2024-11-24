@@ -1,72 +1,72 @@
-# Phase 1 Project Template - Minimum Viable Product (MVP)
+# Aviation Risk Analysis for Aircraft Business Expansion
 
-![blueprint](images/blueprint.png)
+## Overview
+As the company expands into the aviation industry, identifying low-risk aircraft for commercial and private operations becomes critical. This project aims to analyze aviation accidents and incidents to provide key insights that support informed decision-making during aircraft procurement.
 
-This repository is like a blueprint, providing structure for your first End of Phase Project. We suggest you base your Phase 1 project off of this repository so you can focus less on formatting and organization, and more on the _analysis and communication skills_ that will support your progress through the course. This template is designed to make your project portfolio-ready in order to impress the future employers who will review it. 
+---
 
-## Repository Contents
+## Business Problem
+The expansion into a new business segment presents challenges in identifying low-risk aircraft. Without proper insights, ineffective purchases, wasted resources, and missed opportunities could occur.
 
-Below is a list of the contents of this repository - instructions for using them are in the next section.
+---
 
-- `README.md`: The README for this repo branch explaining it's contents - you're reading it now
-- `TEMPLATE_README.md`: An example of a project README that provides a brief overview of your whole project
-- `dsc-phase1-project-template.ipynb`: A starter Jupyter Notebook with headings, code examples and guiding questions
-- `DS_Project_Presentation_Template.pdf`: A starter slide deck presenting your project - here is an [editable version](https://docs.google.com/presentation/d/1PaiH1bleXnhiPjTPsAXQSiAK0nkaRlseQIr_Yb-0mz0/copy)
-- `zippedData` folder: A folder for the data you reference with your code
-- `images` folder: A folder for the images you reference in your files 
-- `.gitignore`: A hidden file that tells git to not track certain files and folders
+## Objectives
+- Gain insights into the potential risks of different aircraft types.
+- Identify low-risk aircraft suitable for the new aviation business.
+- Provide actionable insights to guide aircraft purchasing decisions.
 
-## Instructions For Using This Repository
+---
 
-### Fork This Repository
+## Research Questions
+1. What are the potential risk trends for different types of aircraft?
+2. Which factors influence the identification of low-risk aircraft?
+3. Can historical data predict future aircraft purchasing behavior?
 
-**For a group project**, have only one team member do these steps:
+---
 
-1. Fork this repository to your personal account
-   - In GitHub, go to this repository and click the "Fork" button in the upper right
-   
-2. Change the name of your fork of this repo to a _descriptive_ name of your choosing
-   - In GitHub, go to your fork of this repo -> "Settings" -> "Options" -> "Repository Name" -> "Rename"
-   - Make the name descriptive, since potential employers will read it. Ex: "Microsoft-Movie-Analysis" is better than "Project-1"
+## Methodology
+1. **Data Collection:** Obtain historical aviation accident and incident data.
+2. **Data Cleaning:** Preprocess the data to handle missing values, inconsistencies, and duplicates.
+3. **Feature Engineering:** Develop relevant features for analysis and modeling.
+4. **Analysis and Interpretation:** Extract actionable insights from the data.
 
-3. Use `git clone` to clone your fork of this repo to your local computer
+---
 
-4. **For a group project**, add team members as collaborators to your fork of this repo
-   - In GitHub, go to your fork of this repo -> "Settings" -> "Manage Access" -> "Invite Teams or People"
-   - Add your project team members as collaborators & send them the repo GitHub URL
+## Success Criteria
+- Deliver recommendations that enable data-driven decisions, leading to measurable improvements in identifying low-risk aircraft.
 
-### Work In Your Fork Of This Repository
+---
 
-- Work in the repo clone that you created on your local machine
-- Start writing and coding in the Jupyter Notebook `dsc-phase1-project-template.ipynb`
-- Fill in the README template in `TEMPLATE_README.md`
-- Use `git add`, `git commit`, and `git push` often to update your repo in GitHub
-   - For a refresher on how to do this and why it's important, review Topic 2: Bash and Git
+## Data Understanding
+The dataset used in this analysis comes from the **National Transportation Safety Board (NTSB)**, containing aviation accident data from 1962 to 2023. The dataset includes attributes such as:
+- Aircraft damage
+- Aircraft make and model
+- Purpose of flight
+- Injuries
+- Weather conditions
 
-### Use The Slide Template
+Source: [Aviation Accident Database](https://www.kaggle.com/datasets/khsamaha/aviation-accident-database-synopses)
 
-1. Go to [this link](https://docs.google.com/presentation/d/1PaiH1bleXnhiPjTPsAXQSiAK0nkaRlseQIr_Yb-0mz0/copy) to make an editable copy of the slide deck in your own Google Drive account
-2. Go to "Slide," select "Change Theme," and pick a theme you like so your presentation doesn't look like everyone else's
-3. **For a group project**, click the "Share" button and add your teammates as editors
+---
 
-### Tidy Up Your Project
+## Data Modeling
+- **Feature Engineering:** Create features for assessing risk factors like damage levels, weather conditions, and flight purposes.
+- **Evaluation Metrics:** Focus on risk analysis metrics to evaluate aircraft safety.
 
-- Change the file name of the Jupyter Notebook (`dsc-phase1-project-template.ipynb`) to something more descriptive
-- Save an appropriately-named PDF version of your slide deck to the repository
-- Rename the template readme you've been working in by running `git mv TEMPLATE_README.md README.md`
-- Delete unnecessary files from the repo using `git rm`
-   - The presentation PDF: `DS_Project_Presentation_Template.pdf`
-   - Any unused data files in the `zippedData` folder
-   - Any unused images in the `images` folder
-- Utilize the .gitignore file to ignore large unzipped data files in the `zippedData` folder
-   - Add `*.csv`,`*.tsv`, and `*.db` to the .gitignore file
+---
 
-### Submit Your Project
+## Evaluation
+Key findings from the analysis include:
+1. **Aircraft Damage:** Destroyed aircraft indicate significantly higher risks.
+2. **Purpose of Flight:** Commercial flights generally have lower risks compared to personal or non-commercial flights.
+3. **Weather Conditions:** Adverse weather contributes to a substantial increase in risks.
+4. **Aircraft Age:** Modern aircraft exhibit lower risk levels compared to older models.
 
-To submit your project, please follow the instructions in the "Project Submission & Review" page in the Milestones course.
+---
 
-***
-### Notes
-
-- The visualizations in the notebook use best practices for visualization that you should try to emulate. For example, they have clear axes, descriptive titles, and appropriate number formatting
-- The `dsc-phase1-project-template.ipynb` is intended to be the _final version_ of your project. The first notebook you create will not look like this. You are encouraged to start with a very disorderly notebook and clean it as you go
+## Conclusion
+- **Data-Driven Insights:** The analysis provides actionable insights for effective aircraft purchasing.
+- **Acknowledgement of Bias:** Potential biases in historical data were considered during the analysis.
+- **Key Factors:** Critical factors include aircraft damage, weather conditions, and injuries.
+- **Focus Areas:** Prioritize safety, compliance, and operational reliability in decision-making.
+- **Future Directions:** Refine risk models to further improve aircraft purchasing decisions based on predictive analytics.

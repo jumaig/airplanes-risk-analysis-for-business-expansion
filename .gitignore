@@ -157,4 +157,4 @@ __pycache__/
 *$py.class
 
 # Csv
-.Csv
+*.Csv

@@ -70,3 +70,8 @@ Key findings from the analysis include:
 - **Key Factors:** Critical factors include aircraft damage, weather conditions, and injuries.
 - **Focus Areas:** Prioritize safety, compliance, and operational reliability in decision-making.
 - **Future Directions:** Refine risk models to further improve aircraft purchasing decisions based on predictive analytics.
+
+---
+
+## Visualization Link
+https://public.tableau.com/app/profile/isaiah.githaiga/viz/AirplanesRiskAnalysisforBusinessExpansion/AircraftRiskAnalysisforBusinessExpansion?publish=yes
